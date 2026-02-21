@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+@theme{
+  --color-background:#DAF5D3;
+  --color-horline:#0BBF26;
+  --color-peaka:#FF8B07;
+  --color-peakb:#0EFF01;
+  --color-peakc:#FF5207;
+  --color-grasst:#0BBF26;
+  --color-grassb:#055912;
+  --color-cloudt:#F3F3F3;
+  --color-cloudb:#A4A3A3;
+  --color-sun:#FFD427;
+  --color-sunlight:#FFD42788;
+  --color-topredradc:#FB646455;
+  --color-topredrade:#99999900;
+  --radius-peak:29px;
+
+}
+
+
+/* general classes start*/
+
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  
+}
+
+.button{
+  height: max-content;
+  width: max-content;
+  padding: 0.4em 2em;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  transition: all;
+  transition-duration: 500ms;
+  background: linear-gradient(rgba(0, 140, 255,0.2),rgba(0, 140, 255,0.4),rgba(0, 140, 255,0.2));
+}
+
+.button:hover{
+  border: 2px solid rgba(116, 116, 241, 0.247);
+}
+
+.button:active{
+    border: 2px solid rgba(116, 116, 241, 0.911);
+
+}
+
+h2{
+  
+  @apply font-bold text-4xl h-max
+}
+h3{
+  
+  @apply font-bold text-2xl h-max
+}
+
+h4{
+  
+  @apply font-semibold text-2xl h-max
+}
+
+p{
+  @apply text-justify my-1 text-[#999999b7];
+  line-break: loose;
+  line-height: 18px;
+}
+
+.line-1{
+  line-height: 12px;
+}
+
+
+/* general classes end */
+/* ###################################################################3 */

@@ -1,0 +1,126 @@
+
+/* gemeral classes start*/
+
+.section-card{
+    height:max-content;
+    min-height: 24rem;
+    margin:0 1rem;
+    padding:2rem;
+    gap: 16px;
+}
+
+.section-cont{
+    width: 100%;
+    height: max-content;
+    min-height: 80vh;
+    overflow-x: hidden;
+    padding-top:4rem;
+}
+
+
+/* general classes end */
+/* #################################################################### */
+/* hero section start */
+
+.hero-pieces{
+    /* height: 100%; */
+    /* width: 100%; */
+    margin-left: 10rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+/* hero seciton end */
+/* @#######################################################################@ */
+/* about section start */
+
+.about-cards{
+    background-color: hsla(0, 0%, 100%, 0.039);
+    border-radius: 10px;
+    padding: 1em 2em;
+}
+
+/* about section end */
+/* ##################################################################### */
+/* projects start */
+
+.projects-card{
+    background-color: #ffffff0a;
+    
+    border-radius: 10px;
+    /* padding: 1em 2em; */
+    width: 60em;
+    height: 26em;
+    /* height: max-content; */
+    overflow: hidden;
+
+}
+
+.project-img{
+    height: 100%;
+    aspect-ratio: 1;
+    backdrop-filter: blur(12px);
+border-right: 1px solid hsl(239, 20%, 20%);
+}
+
+.button-black{
+    backdrop-filter: blur(10px);
+    border: 1px solid hsla(229, 95%, 36%, 0.4);
+    padding: 4px 12px;
+    border-radius:4px;
+    cursor: pointer;
+    width: max-content;
+    min-width: 80px;
+    transition:all;
+    transition-duration:300ms;
+}
+
+.button-blue{
+    backdrop-filter: blur(10px);
+    background-color:hsla(229, 95%, 36%, 0.4);
+    border: 1px solid transparent;
+    padding: 4px 12px;
+    border-radius:4px;
+    cursor: pointer;
+    width: max-content;
+    min-width: 80px;
+    transition:all;
+    transition-duration:300ms;
+}
+
+.button-blue:hover , .button-black:hover{
+    border: 1px solid hsla(229, 95%, 36%, 0.8);
+}
+/* projects end */
+/* ####################################################################### */
+/* skills start */
+
+.skills-card{
+    height: 17rem;
+    width: 20rem;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    background-color: #ffffff0a;
+    padding: 1rem ;
+    box-sizing: border-box;
+    display:  flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* skills end */
+/* ###################################################################### */
+/* footer start */
+
+.footer{
+    width: 100%;
+    /* height: max-content; */
+    min-height: 120px;
+    overflow-x: hidden;
+    padding-top:4rem;
+}
+
+/* footer end */

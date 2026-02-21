@@ -1,0 +1,59 @@
+
+/* Loader css styles */
+
+
+.loader-c2{
+    animation-name: animate-c;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+.loader-c1{
+    animation-name: animate-c;
+    animation-timing-function: linear;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+
+}
+
+.loader-ac{
+    animation-name: animate-ac;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+.loader{
+    height: 9rem;
+    border-radius: 1rem;
+}
+
+
+@keyframes animate-c {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate-ac {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+
+/* ##################################### */
+/* Loader css end */
+/* DonotArc CSS start */
+/* ######################################## */
+
+
+

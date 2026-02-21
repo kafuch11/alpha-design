@@ -1,0 +1,8 @@
+.background-grad-blue{
+    height: 30em;
+    width: 70em;
+    position:absolute;
+    filter: blur(20);
+    transform: rotateZ(45deg);
+    background: radial-gradient(rgba(9, 10, 56, 0.541),rgba(18, 9, 56, 0.2),rgba(0,0,0,0),rgba(0,0,0,0));
+}
