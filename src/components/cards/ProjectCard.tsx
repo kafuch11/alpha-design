@@ -15,7 +15,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. At, sint minima libero 
                 ))}
                 </div>
                 <div className="h-max w-full flex justify-end pb-5 px-5 gap-4">
-                    <button className="button-black">Details</button><button className="button-blue">Visit</button>
+                    <button className="secondary-btn">Details</button><button className="primary-btn">Visit</button>
 
                 </div>
             </div>

@@ -40,7 +40,7 @@ const Contact = () => {
           <textarea name="message" id="message" className="w-full border border-gray-900 rounded-sm py-3 px-4 min-h-52 overflow-hidden" placeholder="Leave a Message.."></textarea>
           <input name="email" type="email" id="email" className="w-full border border-gray-900 rounded-sm py-3 px-4 mt-3" placeholder="Emial.."></input>
           <div className="h-max w-full flex justify-end pb-5  gap-4 mt-3">
-            <button className="button-black">Clear</button><button className="button-blue">Submit</button>
+            <button className="secondary-btn">Clear</button><button className="primary-btn">Submit</button>
 
           </div>
         </div>
