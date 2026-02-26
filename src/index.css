@@ -2,6 +2,7 @@
 
 
 
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -10,11 +11,18 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #000;
+  width:100%;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -39,12 +47,6 @@
 
 /* general classes start*/
 
-body {
-  margin: 0;
-  display: flex;
-  min-height: 100vh;
-  
-}
 
 .button{
   height: max-content;

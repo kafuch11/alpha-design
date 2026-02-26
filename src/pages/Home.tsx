@@ -7,7 +7,7 @@ import Footer from '../sections/Footer'
 
 const Home = () => {
   return (
-    <div className='w-full h-full relative overflow-x-hidden  '>
+    <div className='w-full h-full relative overflow-x-hidden '> 
           
           <Hero/>
           <About/>
